@@ -1,0 +1,18 @@
+# .gitignore
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore logs
+*.log
+
+# Ignore the .env file if it exists
+.env
+
+# Ignore MacOS system files
+.DS_Store
+
+# Ignore dist directory if you have one
+dist/
+~$answers.xlsx
+~$questions.xlsx

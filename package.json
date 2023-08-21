@@ -1,0 +1,21 @@
+{
+  "name": "question-answer-generator",
+  "version": "1.0.0",
+  "description": "Automate the process of generating answers to questions using OpenAI's GPT-3.5 model.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"No tests specified\""
+  },
+  "keywords": ["question", "answer", "generator", "OpenAI", "GPT-3.5", "Excel"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bottleneck": "^2.19.5",
+    "dotenv": "^16.3.1",
+    "exceljs": "^4.3.0",
+    "openai": "^3.3.0",
+    "typescript": "^5.1.6"
+  }
+}
